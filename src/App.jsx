@@ -4,13 +4,13 @@ import Header from "./components/Header";
 import Section from "./components/Section";
 import HelpfulResource from "./components/HelpfulResource";
 import AboutMe from "./components/AboutMe";
+import Footer from "./components/Footer"; // import Footer
 
 const App = () => {
   return (
     <div>
       <Header />
-
-      {/* What is React Section */}
+      {/* Sections */}
       <Section title="What is react?">
         <p>
           React is a popular open-source JavaScript library for building user
@@ -20,7 +20,6 @@ const App = () => {
         </p>
       </Section>
 
-      {/* Benefits of React Section */}
       <Section title="Benefits of react">
         <ul>
           <li>Reusable components for faster development</li>
@@ -31,7 +30,6 @@ const App = () => {
         </ul>
       </Section>
 
-      {/* Helpful Resources Section */}
       <Section title="Helpful resources">
         <HelpfulResource
           label="React Official Documentation"
@@ -47,8 +45,10 @@ const App = () => {
         />
       </Section>
 
-      {/* About Me Section */}
       <AboutMe />
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
