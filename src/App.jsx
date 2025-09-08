@@ -3,6 +3,7 @@ import React from "react";
 import Header from "./components/Header";
 import Section from "./components/Section";
 import HelpfulResource from "./components/HelpfulResource";
+import AboutMe from "./components/AboutMe";
 
 const App = () => {
   return (
@@ -45,6 +46,9 @@ const App = () => {
           link="https://www.w3schools.com/react/"
         />
       </Section>
+
+      {/* About Me Section */}
+      <AboutMe />
     </div>
   );
 };
